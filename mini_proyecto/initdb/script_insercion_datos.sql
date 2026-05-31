@@ -25,9 +25,8 @@ VALUES
 ('Orgullo y prejuicio', '478-5454445455',4,2),
 ('Crimen y castigo', '888-5454545648445',2,3);
 
-INSERT INTO biblioteca.prestamos (id_usuario,id_libro,fecha_esperada_devolucion,fecha_prestamo,fecha_devolucion,estado)
-VALUES
-(1,1,'2026-04-07','2026-08-14','2026-09-25','2026-12-01','ACTIVO'),
-(2,2,'2026-11-12','2026-03-07','2026-08-30','2026-02-14','DEVUELTO'),
-(3,3,'2026-09-10','2026-08-01','2026-07-02','2026-04-09','VENCIDO'),
-(4,4,'2026-05-25','2026-10-07','2026-05-04','2026-05-08','ACTIVO');
+INSERT INTO biblioteca.prestamos (id_usuario, id_libro, fecha_prestamo, fecha_esperada_devolucion, fecha_devolucion, estado) VALUES
+(1, 1, '2026-05-25', '2026-06-05', NULL, 'ACTIVO'),
+(1, 2, '2026-05-10', '2026-05-20', '2026-05-18', 'DEVUELTO'),
+(2, 3, '2026-05-10', '2026-05-20', NULL, 'VENCIDO'),
+(3, 4, '2026-05-26', '2026-06-02', NULL, 'ACTIVO');
