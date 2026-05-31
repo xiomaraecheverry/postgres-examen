@@ -1,6 +1,4 @@
-Aquí lo tienes en formato **Markdown (.md)** para que lo copies directamente:
 
-```md
 # Explicación del Mini Proyecto Biblioteca
 
 ## Archivo: docker-compose.yml
